@@ -3,7 +3,7 @@
 
 //*********************************************************************************************
 unsigned char lcd_buf[32];		          //текстовый буфер для вывода на LCD
-unsigned char LcdCache[LCD_CACHE_SIZE];	//Cache buffer in SRAM 128*64 bits or 1024 bytes
+unsigned char LcdCache[LCD_CACHE_SIZE];	//Видео память.Cache buffer in SRAM 128*64 bits or 1024 bytes
 unsigned int  LcdCacheIdx = 0;          //Cache index
 
 extern const unsigned char Ascii_Tab_12864[];//Рабочая.
