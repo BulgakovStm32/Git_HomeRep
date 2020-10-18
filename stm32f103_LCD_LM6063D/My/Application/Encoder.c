@@ -2,7 +2,7 @@
 #include "Encoder.h"
 
 //-----------------------------------------------------------------------------
-static Encoder_t EncoderStr;
+static Encoder_t EncoderStr;//Структура для хранения состояния энкодера.
 //-----------------------------------------------------------------------------
 static void EncoderTurn(uint16_t *parameter, uint16_t min, uint16_t max){
 
