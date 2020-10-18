@@ -1,8 +1,7 @@
 
 #include "LM6063D.h"
   
-	
-extern SPI_HandleTypeDef hspi2;
+extern SPI_HandleTypeDef hspi2;//С этим SPI будет работать дисплей.
 //-----------------------------------------------------------------------------
 static void Lm6063LcdPause(uint16_t pause){
   
