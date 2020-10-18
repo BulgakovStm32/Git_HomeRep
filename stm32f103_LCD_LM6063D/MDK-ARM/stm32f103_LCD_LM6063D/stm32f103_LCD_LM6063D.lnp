@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"stm32f103_lcd_lm6063d\startup_stm32f103xb.o"
+"stm32f103_lcd_lm6063d\lm6063d.o"
+"stm32f103_lcd_lm6063d\ascii_tab_12864.o"
+"stm32f103_lcd_lm6063d\lcdgraphic.o"
+"stm32f103_lcd_lm6063d\encoder.o"
+"stm32f103_lcd_lm6063d\main.o"
+"stm32f103_lcd_lm6063d\stm32f1xx_it.o"
+"stm32f103_lcd_lm6063d\stm32f1xx_hal_msp.o"
+"stm32f103_lcd_lm6063d\stm32f1xx_hal_gpio_ex.o"
+"stm32f103_lcd_lm6063d\stm32f1xx_hal_spi.o"
+"stm32f103_lcd_lm6063d\stm32f1xx_hal.o"
+"stm32f103_lcd_lm6063d\stm32f1xx_hal_rcc.o"
+"stm32f103_lcd_lm6063d\stm32f1xx_hal_rcc_ex.o"
+"stm32f103_lcd_lm6063d\stm32f1xx_hal_gpio.o"
+"stm32f103_lcd_lm6063d\stm32f1xx_hal_dma.o"
+"stm32f103_lcd_lm6063d\stm32f1xx_hal_cortex.o"
+"stm32f103_lcd_lm6063d\stm32f1xx_hal_pwr.o"
+"stm32f103_lcd_lm6063d\stm32f1xx_hal_flash.o"
+"stm32f103_lcd_lm6063d\stm32f1xx_hal_flash_ex.o"
+"stm32f103_lcd_lm6063d\stm32f1xx_hal_exti.o"
+"stm32f103_lcd_lm6063d\stm32f1xx_hal_tim.o"
+"stm32f103_lcd_lm6063d\stm32f1xx_hal_tim_ex.o"
+"stm32f103_lcd_lm6063d\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "stm32f103_LCD_LM6063D\stm32f103_LCD_LM6063D.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "stm32f103_LCD_LM6063D.map" -o stm32f103_LCD_LM6063D\stm32f103_LCD_LM6063D.axf
